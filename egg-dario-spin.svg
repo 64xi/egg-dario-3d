@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="Egg Dario Headspin SVG Animation">
+  <title>Egg Dario Headspin Animation</title>
+  <defs>
+    <!-- Stage clip -->
+    <clipPath id="stageClip">
+      <rect x="0" y="0" width="640" height="360" rx="12" ry="12"/>
+    </clipPath>
+
+    <!-- Egg body clip for 3D spherical face rotation -->
+    <clipPath id="eggClip">
+      <path d="M 0,-94 C 55,-94 94,-44 94,12 C 94,58 56,88 0,88 C -56,88 -94,58 -94,12 C -94,-44 -55,-94 0,-94 Z"/>
+    </clipPath>
+
+    <!-- Background Wall Gradient -->
+    <radialGradient id="wallBg" cx="28%" cy="32%" r="78%">
+      <stop offset="0%" stop-color="#4e4633"/>
+      <stop offset="35%" stop-color="#35382a"/>
+      <stop offset="72%" stop-color="#25281f"/>
+      <stop offset="100%" stop-color="#191b15"/>
+    </radialGradient>
+
+    <!-- Warm Lamp Glow -->
+    <radialGradient id="lampHalo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffdc96" stop-opacity="0.72"/>
+      <stop offset="40%" stop-color="#e59e4c" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#d48435" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="lampCore" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f7c879"/>
+      <stop offset="45%" stop-color="#ffebc0"/>
+      <stop offset="85%" stop-color="#f6bc67"/>
+      <stop offset="100%" stop-color="#c98038"/>
+    </linearGradient>
+
+    <!-- Wooden Table Gradients -->
+    <linearGradient id="tableBase" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#8f6849"/>
+      <stop offset="18%" stop-color="#7c563b"/>
+      <stop offset="55%" stop-color="#69462f"/>
+      <stop offset="100%" stop-color="#4e3220"/>
+    </linearGradient>
+
+    <radialGradient id="tableLampSheen" cx="24%" cy="20%" r="55%">
+      <stop offset="0%" stop-color="#f5be72" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#c98b4c" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#69462f" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="tableFrictionGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffbe5c" stop-opacity="0.58"/>
+      <stop offset="50%" stop-color="#e88735" stop-opacity="0.24"/>
+      <stop offset="100%" stop-color="#ff8c24" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Egg Body 3D Clay Skin Shading -->
+    <radialGradient id="eggSkin" cx="38%" cy="32%" r="72%" fx="32%" fy="28%">
+      <stop offset="0%" stop-color="#f9d9bc"/>
+      <stop offset="28%" stop-color="#ebb690"/>
+      <stop offset="64%" stop-color="#d2966e"/>
+      <stop offset="88%" stop-color="#ac704c"/>
+      <stop offset="100%" stop-color="#835035"/>
+    </radialGradient>
+
+    <linearGradient id="eggBottomShadow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5e331c" stop-opacity="0"/>
+      <stop offset="56%" stop-color="#5e331c" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#281308" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <radialGradient id="eggRimLight" cx="12%" cy="38%" r="48%">
+      <stop offset="0%" stop-color="#ffe9c7" stop-opacity="0.45"/>
+      <stop offset="55%" stop-color="#ffd09b" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#ffd09b" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Dario Facial Feature Gradients -->
+    <radialGradient id="stubbleGrad" cx="50%" cy="46%" r="54%">
+      <stop offset="0%" stop-color="#7c6d60" stop-opacity="0.2"/>
+      <stop offset="60%" stop-color="#887564" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#887564" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="rosyFlush" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e38a72" stop-opacity="0.32"/>
+      <stop offset="65%" stop-color="#de8b72" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#de8b72" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="noseTipGrad" cx="44%" cy="58%" r="58%">
+      <stop offset="0%" stop-color="#f7c8a6"/>
+      <stop offset="45%" stop-color="#e49d7e"/>
+      <stop offset="82%" stop-color="#c47b5c"/>
+      <stop offset="100%" stop-color="#9c5c42"/>
+    </radialGradient>
+
+    <linearGradient id="lowerLipGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#b8665e"/>
+      <stop offset="48%" stop-color="#d5857c"/>
+      <stop offset="100%" stop-color="#e39d92"/>
+    </linearGradient>
+
+    <radialGradient id="darioIris" cx="46%" cy="46%" r="54%">
+      <stop offset="0%" stop-color="#8d9996"/>
+      <stop offset="55%" stop-color="#647070"/>
+      <stop offset="85%" stop-color="#3f4748"/>
+      <stop offset="100%" stop-color="#2a2f30"/>
+    </radialGradient>
+
+    <linearGradient id="acetateFrame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b3f45"/>
+      <stop offset="40%" stop-color="#222529"/>
+      <stop offset="100%" stop-color="#16181b"/>
+    </linearGradient>
+
+    <linearGradient id="lensGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="42%" stop-color="#dbe6ee" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#2b211c" stop-opacity="0.14"/>
+    </linearGradient>
+
+    <!-- Limbs & Purple Shoes -->
+    <linearGradient id="armGradL" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f6cba5"/>
+      <stop offset="55%" stop-color="#d99a70"/>
+      <stop offset="100%" stop-color="#9e6240"/>
+    </linearGradient>
+
+    <linearGradient id="armGradR" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f1c29a"/>
+      <stop offset="55%" stop-color="#cf8f66"/>
+      <stop offset="100%" stop-color="#915737"/>
+    </linearGradient>
+
+    <linearGradient id="legGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4c7a0"/>
+      <stop offset="52%" stop-color="#d79970"/>
+      <stop offset="100%" stop-color="#9a603e"/>
+    </linearGradient>
+
+    <linearGradient id="shoeUpper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#83648a"/>
+      <stop offset="45%" stop-color="#64496b"/>
+      <stop offset="100%" stop-color="#412d47"/>
+    </linearGradient>
+
+    <linearGradient id="shoeSole" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a28ea8"/>
+      <stop offset="100%" stop-color="#76637d"/>
+    </linearGradient>
+
+    <!-- Plush Matte Chestnut-Espresso Curly Hair Gradients (no glossy grape look!) -->
+    <radialGradient id="hairMassGrad" cx="34%" cy="24%" r="76%">
+      <stop offset="0%" stop-color="#452c1c"/>
+      <stop offset="42%" stop-color="#2b1a10"/>
+      <stop offset="78%" stop-color="#1b100a"/>
+      <stop offset="100%" stop-color="#120a06"/>
+    </radialGradient>
+
+    <radialGradient id="hairPuffSoft" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#3c2518"/>
+      <stop offset="65%" stop-color="#24150d"/>
+      <stop offset="100%" stop-color="#180e08"/>
+    </radialGradient>
+
+    <radialGradient id="hairPuffDeep" cx="42%" cy="36%" r="68%">
+      <stop offset="0%" stop-color="#2c1b11"/>
+      <stop offset="70%" stop-color="#1b100a"/>
+      <stop offset="100%" stop-color="#110a06"/>
+    </radialGradient>
+
+    <!-- Smoke & Sparks -->
+    <radialGradient id="smokePuff" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f5f4f0" stop-opacity="0.68"/>
+      <stop offset="48%" stop-color="#d9d7d1" stop-opacity="0.38"/>
+      <stop offset="82%" stop-color="#b0ada6" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#8c8982" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="sparkStreakR" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#ff9429" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffc247" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#fff8d9" stop-opacity="1"/>
+    </linearGradient>
+
+    <linearGradient id="sparkStreakL" x1="100%" y1="50%" x2="0%" y2="50%">
+      <stop offset="0%" stop-color="#ff9429" stop-opacity="0"/>
+      <stop offset="45%" stop-color="#ffc247" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#fff8d9" stop-opacity="1"/>
+    </linearGradient>
+
+    <linearGradient id="speedBlurLeft" x1="100%" y1="50%" x2="0%" y2="50%">
+      <stop offset="0%" stop-color="#f8d29c" stop-opacity="0.78"/>
+      <stop offset="55%" stop-color="#f0a85b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffba5c" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="speedBlurRight" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#f8d29c" stop-opacity="0.78"/>
+      <stop offset="55%" stop-color="#f0a85b" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffba5c" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- SVG Filters -->
+    <filter id="bgBokeh" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="softBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4.5"/>
+    </filter>
+    <filter id="microBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+    <filter id="smokeBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <filter id="hBlurFace" x="-40%" y="-20%" width="180%" height="140%">
+      <feGaussianBlur stdDeviation="3.6 0.35"/>
+    </filter>
+    <filter id="hBlurFaceWide" x="-50%" y="-20%" width="200%" height="140%">
+      <feGaussianBlur stdDeviation="8.2 0.6"/>
+    </filter>
+    <filter id="hBlurHair" x="-35%" y="-20%" width="170%" height="140%">
+      <feGaussianBlur stdDeviation="10 1.2"/>
+    </filter>
+    <filter id="hBlurShoe" x="-45%" y="-25%" width="190%" height="150%">
+      <feGaussianBlur stdDeviation="7.5 0.8"/>
+    </filter>
+    <filter id="sparkGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- ===================================================================
+         UPSIDE-DOWN DARIO AMODEI LIKENESS ARTWORK (Scaled 1.05x for presence)
+         =================================================================== -->
+    <g id="darioFaceArtwork">
+      <!-- Subtle 5-o'clock beard stubble around inverted chin & mouth -->
+      <ellipse cx="0" cy="-46" rx="45" ry="28" fill="url(#stubbleGrad)" filter="url(#microBlur)"/>
+      <ellipse cx="0" cy="-30" rx="28" ry="10" fill="#77675b" opacity="0.14" filter="url(#microBlur)"/>
+
+      <!-- Warm rosy cheek flush -->
+      <ellipse cx="-39" cy="-18" rx="22" ry="14" fill="url(#rosyFlush)" filter="url(#microBlur)"/>
+      <ellipse cx="39" cy="-18" rx="22" ry="14" fill="url(#rosyFlush)" filter="url(#microBlur)"/>
+
+      <!-- Soft rounded chin contour (top of inverted face) -->
+      <path d="M -20,-56 Q 0,-63 20,-56" fill="none" stroke="#9d6447" stroke-width="2" stroke-linecap="round" opacity="0.34"/>
+      <ellipse cx="-2" cy="-62" rx="14" ry="5.5" fill="#f8d8bc" opacity="0.28" filter="url(#microBlur)"/>
+
+      <!-- Dario's gentle nasolabial laugh folds -->
+      <path d="M -18,-17 C -29,-23 -34,-33 -31,-43" fill="none" stroke="#a6694a" stroke-width="2" stroke-linecap="round" opacity="0.44"/>
+      <path d="M 18,-17 C 29,-23 34,-33 31,-43" fill="none" stroke="#a6694a" stroke-width="2" stroke-linecap="round" opacity="0.44"/>
+      <path d="M -25,-35 Q -27,-39 -23,-42" fill="none" stroke="#8a5038" stroke-width="1.6" stroke-linecap="round" opacity="0.48"/>
+      <path d="M 25,-35 Q 27,-39 23,-42" fill="none" stroke="#8a5038" stroke-width="1.6" stroke-linecap="round" opacity="0.48"/>
+
+      <!-- Dario's Signature Closed Warm Smirk Mouth -->
+      <g>
+        <!-- Fuller rosy lower lip (on top when inverted) -->
+        <path d="M -23,-37 C -14,-47.5 14,-47.5 23,-37 C 12,-38 -12,-38 -23,-37 Z" fill="url(#lowerLipGrad)"/>
+        <ellipse cx="0" cy="-41.8" rx="9.5" ry="2.3" fill="#f4b5aa" opacity="0.56"/>
+        <path d="M -13,-48.5 Q 0,-52 13,-48.5" fill="none" stroke="#995f46" stroke-width="1.8" stroke-linecap="round" opacity="0.46"/>
+        <!-- Thinner upper lip (closer to nose = below seam when inverted) -->
+        <path d="M -23,-37 C -13,-31 -4,-31.5 0,-33.2 C 4,-31.5 13,-31 23,-37 C 12,-38 -12,-38 -23,-37 Z" fill="#bf7469" opacity="0.88"/>
+        <!-- Gentle closed mouth seam -->
+        <path d="M -26,-37.5 C -16,-35.2 -7,-36.8 0,-36.8 C 7,-36.8 16,-35.2 26,-37.5" fill="none" stroke="#683328" stroke-width="2.2" stroke-linecap="round"/>
+        <path d="M -3.5,-25 L -2.5,-31 M 3.5,-25 L 2.5,-31" stroke="#b57654" stroke-width="1.3" stroke-linecap="round" opacity="0.34"/>
+      </g>
+
+      <!-- Dario's Prominent Softly Rounded Nose -->
+      <g>
+        <path d="M -9,10 C -10,0 -14,-9 -16,-16.5 C -17,-23 -11,-27 0,-27 C 11,-27 17,-23 16,-16.5 C 14,-9 10,0 9,10 Z" fill="url(#noseTipGrad)"/>
+        <ellipse cx="-11.8" cy="-19" rx="5.6" ry="4.5" fill="#cc8264" opacity="0.72"/>
+        <ellipse cx="11.8" cy="-19" rx="5.6" ry="4.5" fill="#c2785b" opacity="0.72"/>
+        <ellipse cx="-7.2" cy="-23" rx="3.4" ry="1.9" transform="rotate(-14 -7.2 -23)" fill="#78412b" opacity="0.76"/>
+        <ellipse cx="7.2" cy="-23" rx="3.4" ry="1.9" transform="rotate(14 7.2 -23)" fill="#78412b" opacity="0.76"/>
+        <ellipse cx="-1.5" cy="-15.5" rx="7" ry="5" fill="#f9d4b5" opacity="0.52"/>
+        <path d="M -1.5,6 L -1.5,-9.5" stroke="#fde1c6" stroke-width="3.2" stroke-linecap="round" opacity="0.38"/>
+      </g>
+
+      <!-- Calm, Friendly Dario Grey-Hazel Eyes (positioned cleanly inside taller panto lenses) -->
+      <g>
+        <!-- Soft under-eye crease (ABOVE eyes since upside down) -->
+        <path d="M -47,1 Q -33,-4.5 -19,1.5" fill="none" stroke="#b17452" stroke-width="1.4" stroke-linecap="round" opacity="0.42"/>
+        <path d="M 19,1.5 Q 33,-4.5 47,1" fill="none" stroke="#b17452" stroke-width="1.4" stroke-linecap="round" opacity="0.42"/>
+
+        <!-- Viewer-Left Eye -->
+        <path d="M -46,12.5 Q -33,5.2 -19.5,12 Q -33,18.8 -46,12.5 Z" fill="#f6eee7"/>
+        <circle cx="-33" cy="12.2" r="5.8" fill="url(#darioIris)"/>
+        <circle cx="-33" cy="12.2" r="2.7" fill="#181a1b"/>
+        <circle cx="-34.8" cy="10.4" r="1.45" fill="#ffffff" opacity="0.94"/>
+        <path d="M -47,12.5 Q -33,19.4 -19,12" fill="none" stroke="#2d1e17" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M -45,18.5 Q -33,22.5 -21,17.5" fill="none" stroke="#9d6346" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+
+        <!-- Viewer-Right Eye -->
+        <path d="M 19.5,12 Q 33,5.2 46,12.5 Q 33,18.8 19.5,12 Z" fill="#f6eee7"/>
+        <circle cx="33" cy="12.2" r="5.8" fill="url(#darioIris)"/>
+        <circle cx="33" cy="12.2" r="2.7" fill="#181a1b"/>
+        <circle cx="31.2" cy="10.4" r="1.45" fill="#ffffff" opacity="0.94"/>
+        <path d="M 19,12 Q 33,19.4 47,12.5" fill="none" stroke="#2d1e17" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M 21,17.5 Q 33,22.5 45,18.5" fill="none" stroke="#9d6346" stroke-width="1.5" stroke-linecap="round" opacity="0.5"/>
+      </g>
+
+      <!-- Soft Natural Dario Eyebrows (tucked gently just below the glasses browbar) -->
+      <path d="M -52,29.5 C -40,32.5 -26,32.2 -15,28.8" fill="none" stroke="#4d3525" stroke-width="3.5" stroke-linecap="round" opacity="0.8"/>
+      <path d="M 15,28.8 C 26,32.2 40,32.5 52,29.5" fill="none" stroke="#4d3525" stroke-width="3.5" stroke-linecap="round" opacity="0.8"/>
+
+      <!-- Broad High Dario Forehead with Soft Horizontal Expression Lines -->
+      <g fill="none" stroke="#a66948" stroke-linecap="round">
+        <path d="M -38,40.5 Q 0,43 38,40.5" stroke-width="1.3" opacity="0.3"/>
+        <path d="M -44,48 Q 0,50.8 44,48" stroke-width="1.4" opacity="0.34"/>
+        <path d="M -30,55.5 Q 0,57.5 30,55.5" stroke-width="1.1" opacity="0.22"/>
+      </g>
+
+      <!-- ICONIC DARIO TALL ROUNDED PANTO DARK ACETATE GLASSES (UPSIDE DOWN!) -->
+      <g>
+        <!-- Subtle frame cast shadow -->
+        <g fill="none" stroke="#5c3621" stroke-width="3.4" opacity="0.2" transform="translate(0, -2.5)">
+          <path d="M -60,22 C -47,28 -21,28 -10,21.5 C -7,12 -8,-4 -16,-10.5 C -26,-17 -45,-17 -54,-9 C -61,-1 -62,13 -60,22 Z"/>
+          <path d="M 60,22 C 47,28 21,28 10,21.5 C 7,12 8,-4 16,-10.5 C 26,-17 45,-17 54,-9 C 61,-1 62,13 60,22 Z"/>
+        </g>
+
+        <!-- Temple arms -->
+        <path d="M -60,22 L -88,20" stroke="#222529" stroke-width="4" stroke-linecap="round"/>
+        <path d="M 60,22 L 88,20" stroke="#222529" stroke-width="4" stroke-linecap="round"/>
+
+        <!-- Keyhole bridge saddle -->
+        <path d="M -11,22 Q 0,25.5 11,22 L 9.5,17.5 Q 0,20 -9.5,17.5 Z" fill="url(#acetateFrame)"/>
+
+        <!-- Left Generous Rounded Panto Lens -->
+        <path d="M -60,22 C -47,28 -21,28 -10,21.5 C -7,12 -8,-4 -16,-10.5 C -26,-17 -45,-17 -54,-9 C -61,-1 -62,13 -60,22 Z" fill="url(#lensGrad)" stroke="url(#acetateFrame)" stroke-width="4.4" stroke-linejoin="round"/>
+        <path d="M -65,21.8 Q -60,25 -55,24.2" fill="none" stroke="#222529" stroke-width="4.6" stroke-linecap="round"/>
+        <path d="M -52,-8.5 C -43,-15.5 -26,-15.5 -17.5,-9.5" fill="none" stroke="#b4c0ca" stroke-width="1.25" stroke-linecap="round" opacity="0.58"/>
+
+        <!-- Right Generous Rounded Panto Lens -->
+        <path d="M 60,22 C 47,28 21,28 10,21.5 C 7,12 8,-4 16,-10.5 C 26,-17 45,-17 54,-9 C 61,-1 62,13 60,22 Z" fill="url(#lensGrad)" stroke="url(#acetateFrame)" stroke-width="4.4" stroke-linejoin="round"/>
+        <path d="M 65,21.8 Q 60,25 55,24.2" fill="none" stroke="#222529" stroke-width="4.6" stroke-linecap="round"/>
+        <path d="M 17.5,-9.5 C 26,-15.5 43,-15.5 52,-8.5" fill="none" stroke="#b4c0ca" stroke-width="1.25" stroke-linecap="round" opacity="0.58"/>
+
+        <!-- Lens reflections -->
+        <path d="M -49,16 L -35,-9" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" opacity="0.16"/>
+        <path d="M 18,16 L 32,-9" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" opacity="0.16"/>
+      </g>
+
+      <!-- ORGANIC CURLY TEMPLE CLUSTERS & WISPY FOREHEAD RINGLETS (No strap lines!) -->
+      <g>
+        <!-- Left temple curly tuft clusters -->
+        <circle cx="-86" cy="36" r="10" fill="#291910"/>
+        <circle cx="-82" cy="48" r="12" fill="#24150d"/>
+        <circle cx="-74" cy="58" r="13" fill="#2b1a10"/>
+        <circle cx="-63" cy="66" r="13" fill="#22140c"/>
+        <!-- Right temple curly tuft clusters -->
+        <circle cx="86" cy="36" r="10" fill="#24160e"/>
+        <circle cx="82" cy="48" r="12" fill="#1f120b"/>
+        <circle cx="74" cy="58" r="13" fill="#26170f"/>
+        <circle cx="63" cy="66" r="13" fill="#1d110a"/>
+
+        <!-- Delicate curly forehead tendrils peeking onto Dario's broad forehead -->
+        <g fill="none" stroke-linecap="round">
+          <path d="M -52,66 C -50,57 -41,54 -37,59 C -35,63 -39,66 -42,62" stroke="#2d1b11" stroke-width="3.2"/>
+          <path d="M -26,69 C -22,59 -12,57 -9,63 C -7,67 -12,70 -15,66" stroke="#3a2417" stroke-width="3.0"/>
+          <path d="M 5,70 C 10,60 20,59 23,65 C 25,68 20,71 17,67" stroke="#2c1a10" stroke-width="3.0"/>
+          <path d="M 32,68 C 38,58 48,57 51,63 C 53,67 48,70 45,66" stroke="#362115" stroke-width="3.0"/>
+          <!-- Soft warm bronze curl sheen -->
+          <path d="M -47,58 C -43,55 -38,56 -37,59" stroke="#6d4a30" stroke-width="1.3" opacity="0.7"/>
+          <path d="M -21,60 C -17,58 -12,59 -10,62" stroke="#68462d" stroke-width="1.2" opacity="0.65"/>
+          <path d="M 11,61 C 15,59 20,60 22,63" stroke="#66442c" stroke-width="1.2" opacity="0.6"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- ===================================================================
+         PLUSH MATTE CURLY AFRO MOP (Fluffy, Voluminous, Zero Glossy Bubbles!)
+         =================================================================== -->
+    <g id="curlyHairFront">
+      <!-- Fluffy scalloped base volume -->
+      <path d="M -94,-2 C -106,18 -102,58 -76,78 C -46,94 46,94 76,78 C 102,58 106,18 94,-2 C 80,-12 60,4 38,4 C 14,4 -14,4 -38,4 C -60,4 -80,-12 -94,-2 Z" fill="url(#hairMassGrad)"/>
+
+      <!-- Matte overlapping fluffy curl clusters -->
+      <g fill="url(#hairPuffSoft)">
+        <circle cx="-86" cy="14" r="20"/>
+        <circle cx="-66" cy="14" r="21"/>
+        <circle cx="-40" cy="18" r="20"/>
+        <circle cx="-12" cy="18" r="21"/>
+        <circle cx="16" cy="18" r="21"/>
+        <circle cx="44" cy="18" r="20"/>
+        <circle cx="68" cy="14" r="21"/>
+        <circle cx="86" cy="14" r="20"/>
+      </g>
+
+      <g fill="url(#hairPuffDeep)">
+        <circle cx="-88" cy="40" r="22"/>
+        <circle cx="-64" cy="40" r="24"/>
+        <circle cx="-36" cy="42" r="24"/>
+        <circle cx="-6" cy="42" r="25"/>
+        <circle cx="24" cy="42" r="24"/>
+        <circle cx="54" cy="40" r="24"/>
+        <circle cx="84" cy="40" r="22"/>
+      </g>
+
+      <g fill="#190f09">
+        <circle cx="-70" cy="66" r="21"/>
+        <circle cx="-42" cy="68" r="23"/>
+        <circle cx="-12" cy="70" r="24"/>
+        <circle cx="18" cy="70" r="24"/>
+        <circle cx="48" cy="68" r="23"/>
+        <circle cx="72" cy="65" r="20"/>
+      </g>
+
+      <!-- Mid-tone tousled curl texture swirls inside the hair mass -->
+      <g fill="none" stroke-linecap="round">
+        <!-- Warm chestnut curls catching studio lamp light -->
+        <path d="M -88,16 C -84,6 -72,5 -68,14 C -65,20 -73,24 -76,18" stroke="#5c3c26" stroke-width="2.6" opacity="0.65"/>
+        <path d="M -58,18 C -52,9 -40,9 -38,18 C -36,24 -44,26 -46,21" stroke="#523521" stroke-width="2.4" opacity="0.58"/>
+        <path d="M -24,22 C -18,13 -6,13 -4,22 C -2,28 -10,30 -12,25" stroke="#4f3320" stroke-width="2.4" opacity="0.55"/>
+        <path d="M 10,20 C 16,12 28,12 30,21 C 32,27 24,29 22,24" stroke="#4c311f" stroke-width="2.3" opacity="0.52"/>
+        <path d="M 46,16 C 54,8 66,9 68,18 C 70,24 62,27 60,21" stroke="#4d321f" stroke-width="2.4" opacity="0.52"/>
+        <path d="M 74,16 C 82,8 92,10 93,19" stroke="#513421" stroke-width="2.3" opacity="0.5"/>
+
+        <path d="M -78,44 C -72,34 -58,34 -56,44 C -54,50 -62,53 -65,47" stroke="#4f3320" stroke-width="2.5" opacity="0.55"/>
+        <path d="M -44,46 C -37,37 -24,38 -22,47 C -20,53 -28,56 -31,50" stroke="#4a301e" stroke-width="2.4" opacity="0.5"/>
+        <path d="M -8,48 C -2,39 10,39 13,48 C 15,54 7,57 4,51" stroke="#472d1c" stroke-width="2.4" opacity="0.48"/>
+        <path d="M 28,46 C 35,38 48,38 50,47 C 52,53 44,56 41,50" stroke="#452c1b" stroke-width="2.3" opacity="0.46"/>
+        <path d="M 62,44 C 70,36 82,37 84,46" stroke="#422a1a" stroke-width="2.2" opacity="0.44"/>
+
+        <path d="M -56,68 C -48,60 -36,61 -34,69" stroke="#3f2718" stroke-width="2.2" opacity="0.45"/>
+        <path d="M -18,70 C -10,62 2,63 4,71" stroke="#3c2516" stroke-width="2.2" opacity="0.42"/>
+        <path d="M 22,69 C 30,61 42,62 44,70" stroke="#382315" stroke-width="2.2" opacity="0.4"/>
+      </g>
+
+      <!-- Stray outer corkscrew curls & flicked hooks (iconic Dario tousled edge!) -->
+      <g fill="none" stroke-linecap="round">
+        <path d="M -96,10 C -112,2 -118,18 -106,27" stroke="#2a1910" stroke-width="5.2"/>
+        <path d="M -98,36 C -113,40 -113,56 -98,60" stroke="#22140c" stroke-width="4.8"/>
+        <path d="M 96,8 C 113,0 120,17 107,27" stroke="#27170f" stroke-width="5.2"/>
+        <path d="M 98,35 C 114,40 113,56 97,60" stroke="#1f120b" stroke-width="4.8"/>
+        <path d="M -82,74 C -90,85 -76,92 -66,84" stroke="#1b100a" stroke-width="4.2"/>
+        <path d="M 82,74 C 90,85 76,92 66,84" stroke="#1b100a" stroke-width="4.2"/>
+        <!-- Rim light on stray curls -->
+        <path d="M -100,9 C -110,6 -113,15 -107,22" stroke="#6a482e" stroke-width="1.6" opacity="0.62"/>
+        <path d="M 100,8 C 110,4 114,14 108,21" stroke="#62422a" stroke-width="1.5" opacity="0.55"/>
+      </g>
+    </g>
+
+    <!-- Reusable Purple Sneaker (upside-down, sole on top!) -->
+    <g id="purpleShoe">
+      <rect x="-23" y="-22" width="46" height="9" rx="4.5" fill="url(#shoeSole)"/>
+      <path d="M -21,-13 L 21,-13 C 22,-3 18,4 9,6 L -15,6 C -21,4 -22,-3 -21,-13 Z" fill="url(#shoeUpper)"/>
+      <path d="M 8,-13 L 21,-13 C 22,-4 18,3 11,5 C 9,-1 8,-7 8,-13 Z" fill="#77587e" opacity="0.55"/>
+      <path d="M -9,-4 L 4,-4 M -7,0 L 3,0" stroke="#9d85a3" stroke-width="1.6" stroke-linecap="round" opacity="0.7"/>
+      <ellipse cx="-2" cy="5.5" rx="11" ry="2.6" fill="#2c1d30" opacity="0.65"/>
+    </g>
+  </defs>
+
+  <style><![CDATA[
+    /* =====================================================================
+       Master 6.0s Animation Timeline
+       0%  – 11% : Frame 00:00 — Dive/tilt onto curly hair mop
+       11% – 22% : Frame 00:01 — Upright upside-down bare egg back
+       22% – 37% : Accelerating 3D turn showcasing clear upside-down Dario face
+       37% – 87% : Frame 00:02 — FULL TURBO HEADSPIN with smoke and sparks!
+       87% – 100%: Smooth cool-down pass into seamless loop
+       ===================================================================== */
+
+    .dario-rig {
+      animation: rigMotion 6s cubic-bezier(0.42, 0, 0.58, 1) infinite;
+    }
+
+    @keyframes rigMotion {
+      0%   { transform: translate(0px, 16px) scale(1.04, 0.94) rotate(-5deg); }
+      9%   { transform: translate(0px, 11px) scale(1.03, 0.96) rotate(3.5deg); }
+      15%  { transform: translate(0px, -4px) scale(0.97, 1.03) rotate(0deg); }
+      24%  { transform: translate(0px, 1px) scale(1.01, 0.99) rotate(-1deg); }
+      34%  { transform: translate(0px, 0px) scale(1, 1) rotate(0.8deg); }
+      41%  { transform: translate(-1.5px, 2px) scale(1.02, 0.98) rotate(-0.8deg); }
+      48%  { transform: translate(1.5px, -1px) scale(1.01, 0.99) rotate(0.7deg); }
+      55%  { transform: translate(-1.5px, 1.5px) scale(1.02, 0.98) rotate(-0.6deg); }
+      62%  { transform: translate(1.8px, -1.5px) scale(1.01, 0.99) rotate(0.8deg); }
+      69%  { transform: translate(-1.5px, 1px) scale(1.02, 0.98) rotate(-0.7deg); }
+      76%  { transform: translate(1.5px, -1px) scale(1.01, 0.99) rotate(0.6deg); }
+      84%  { transform: translate(-1px, 1px) scale(1.01, 0.99) rotate(-0.5deg); }
+      93%  { transform: translate(0px, 10px) scale(1.03, 0.96) rotate(-3deg); }
+      100% { transform: translate(0px, 16px) scale(1.04, 0.94) rotate(-5deg); }
+    }
+
+    /* Frame 00:00 Forward-Tilted Hair Cover */
+    .dive-hair-cover {
+      animation: diveHairCover 6s ease-in-out infinite;
+    }
+
+    @keyframes diveHairCover {
+      0%, 5%   { opacity: 1; transform: translate(0px, -44px) scale(1.16, 1.24); }
+      11%      { opacity: 0.65; transform: translate(0px, -16px) scale(1.05, 1.07); }
+      15%, 90% { opacity: 0; transform: translate(0px, 6px) scale(1, 0.92); }
+      96%      { opacity: 0.85; transform: translate(0px, -30px) scale(1.12, 1.18); }
+      100%     { opacity: 1; transform: translate(0px, -44px) scale(1.16, 1.24); }
+    }
+
+    /* Crisp Face 3D Turntable Pass */
+    .face-spin-crisp {
+      animation: faceCrispOrbit 6s linear infinite;
+    }
+
+    @keyframes faceCrispOrbit {
+      0%, 19%  { opacity: 0; transform: translateX(118px) scaleX(0.45); }
+      21.5%    { opacity: 0.95; transform: translateX(74px) scaleX(0.75); }
+      25%      { opacity: 1; transform: translateX(6px) scaleX(1); }
+      29%      { opacity: 1; transform: translateX(-8px) scaleX(1); }
+      32%      { opacity: 0.92; transform: translateX(-80px) scaleX(0.7); }
+      33.5%    { opacity: 0; transform: translateX(-118px) scaleX(0.45); }
+      35%      { opacity: 0; transform: translateX(112px) scaleX(0.5); }
+      36.5%    { opacity: 0.95; transform: translateX(30px) scaleX(0.92); }
+      38.5%    { opacity: 0.9; transform: translateX(-42px) scaleX(0.86); }
+      40%      { opacity: 0; transform: translateX(-115px) scaleX(0.45); }
+      40.5%, 87% { opacity: 0; transform: translateX(0px) scaleX(1); }
+      89%      { opacity: 0.92; transform: translateX(52px) scaleX(0.84); }
+      92.5%    { opacity: 0.85; transform: translateX(-34px) scaleX(0.88); }
+      95.5%, 100%{ opacity: 0; transform: translateX(-118px) scaleX(0.45); }
+    }
+
+    /* Turbo Mode Envelope */
+    .turbo-envelope {
+      animation: turboEnvelope 6s ease-in-out infinite;
+    }
+
+    @keyframes turboEnvelope {
+      0%, 36%  { opacity: 0; }
+      40%      { opacity: 1; }
+      85%      { opacity: 1; }
+      91%, 100%{ opacity: 0; }
+    }
+
+    /* High-RPM Whipping Face */
+    .turbo-face-whip {
+      animation: turboFaceWhip 0.24s linear infinite;
+    }
+
+    @keyframes turboFaceWhip {
+      0%   { opacity: 0.55; transform: translateX(24px) scaleX(0.94); }
+      25%  { opacity: 1; transform: translateX(3px) scaleX(1.03); }
+      50%  { opacity: 0.92; transform: translateX(-11px) scaleX(1.02); }
+      75%  { opacity: 0.58; transform: translateX(-26px) scaleX(0.92); }
+      100% { opacity: 0.55; transform: translateX(24px) scaleX(0.94); }
+    }
+
+    .turbo-face-ghost {
+      animation: turboFaceGhost 0.18s linear infinite;
+    }
+
+    @keyframes turboFaceGhost {
+      0%   { opacity: 0.45; transform: translateX(-14px) scaleX(1.1); }
+      50%  { opacity: 0.65; transform: translateX(14px) scaleX(1.08); }
+      100% { opacity: 0.45; transform: translateX(-14px) scaleX(1.1); }
+    }
+
+    /* Subtle Ears */
+    .dario-ears {
+      animation: earsVisibility 6s ease-in-out infinite;
+    }
+
+    @keyframes earsVisibility {
+      0%, 14%  { opacity: 0; transform: scaleX(0.7); }
+      22%, 88% { opacity: 1; transform: scaleX(1); }
+      95%, 100%{ opacity: 0; transform: scaleX(0.7); }
+    }
+
+    /* Curly Hair Base Spin Ripple (plush and voluminous!) */
+    .hair-crisp-layer {
+      animation: hairCrispSpin 6s ease-in-out infinite;
+    }
+
+    @keyframes hairCrispSpin {
+      0%, 12%  { opacity: 1; transform: translate(0px, -2px) scale(1, 1.04); }
+      15%, 20% { opacity: 1; transform: translate(-4px, -16px) scale(1.04, 1.24); }
+      26%      { opacity: 1; transform: translate(4px, 0px) scale(1.01, 1.0); }
+      34%      { opacity: 0.94; transform: translate(-4px, 0px) scale(1.03, 1.0); }
+      40%, 85% { opacity: 0.62; transform: translate(0px, 0px) scale(1.06, 1.0); }
+      92%, 100%{ opacity: 1; transform: translate(0px, -2px) scale(1, 1.04); }
+    }
+
+    .hair-turbo-jitter {
+      animation: hairTurboJitter 0.14s linear infinite;
+    }
+
+    @keyframes hairTurboJitter {
+      0%   { transform: translateX(-4px) scaleX(1.08); }
+      50%  { transform: translateX(4px) scaleX(1.12); }
+      100% { transform: translateX(-4px) scaleX(1.08); }
+    }
+
+    /* Arms 3D Orbit and Outstretched Turbo Pose */
+    .arm-left-group {
+      animation: armLeftAnim 6s ease-in-out infinite;
+    }
+
+    @keyframes armLeftAnim {
+      0%, 9%   { transform: translate(-86px, 18px) rotate(-26deg) scaleX(1); opacity: 1; }
+      13%      { transform: translate(-80px, 12px) rotate(-22deg) scaleX(0.8); opacity: 0.2; }
+      15%, 19% { transform: translate(-72px, 10px) rotate(-20deg) scaleX(0.6); opacity: 0; }
+      22%      { transform: translate(-84px, 6px) rotate(-12deg) scaleX(0.92); opacity: 1; }
+      27%      { transform: translate(-91px, 0px) rotate(-3deg) scaleX(1); opacity: 1; }
+      35%      { transform: translate(-93px, -2px) rotate(1deg) scaleX(1.04); opacity: 1; }
+      40%, 85% { transform: translate(-94px, -3px) rotate(2deg) scaleX(1.08); opacity: 1; }
+      93%, 100%{ transform: translate(-86px, 18px) rotate(-26deg) scaleX(1); opacity: 1; }
+    }
+
+    .arm-right-group {
+      animation: armRightAnim 6s ease-in-out infinite;
+    }
+
+    @keyframes armRightAnim {
+      0%, 9%   { transform: translate(86px, 18px) rotate(26deg) scaleX(1); opacity: 1; }
+      15%      { transform: translate(74px, 10px) rotate(18deg) scaleX(0.72); opacity: 0.78; }
+      21%      { transform: translate(85px, 4px) rotate(10deg) scaleX(0.92); opacity: 0.95; }
+      28%      { transform: translate(91px, 0px) rotate(3deg) scaleX(1); opacity: 1; }
+      35%      { transform: translate(93px, -2px) rotate(-1deg) scaleX(1.04); opacity: 1; }
+      40%, 85% { transform: translate(94px, -3px) rotate(-2deg) scaleX(1.08); opacity: 1; }
+      93%, 100%{ transform: translate(86px, 18px) rotate(26deg) scaleX(1); opacity: 1; }
+    }
+
+    .arm-vibe {
+      animation: armVibe 0.12s linear infinite;
+    }
+    @keyframes armVibe {
+      0%   { transform: translateY(-1px); }
+      50%  { transform: translateY(1.2px); }
+      100% { transform: translateY(-1px); }
+    }
+
+    .front-sweep-arm {
+      animation: frontSweepArm 6s ease-in-out infinite;
+    }
+
+    @keyframes frontSweepArm {
+      0%, 12%  { opacity: 0; transform: translate(-86px, 12px) rotate(-20deg) scaleX(0.7); }
+      16%      { opacity: 1; transform: translate(-74px, 12px) rotate(-24deg) scaleX(0.95); }
+      20%      { opacity: 0.8; transform: translate(-52px, 14px) rotate(-16deg) scaleX(0.8); }
+      22.5%    { opacity: 0; transform: translate(-25px, 12px) rotate(-5deg) scaleX(0.5); }
+      100%     { opacity: 0; transform: translate(-25px, 12px) rotate(-5deg) scaleX(0.5); }
+    }
+
+    /* Legs and Chunky Purple Shoes (kept plump - never squashed paper-thin!) */
+    .legs-master {
+      animation: legsPop 6s ease-in-out infinite;
+    }
+
+    @keyframes legsPop {
+      0%, 7%   { opacity: 0; transform: translate(0px, 34px) scale(0.7, 0.4); }
+      13%      { opacity: 1; transform: translate(0px, -4px) scale(1.02, 1.06); }
+      17%, 88% { opacity: 1; transform: translate(0px, 0px) scale(1, 1); }
+      95%, 100%{ opacity: 0; transform: translate(0px, 34px) scale(0.7, 0.4); }
+    }
+
+    .shoe-pair-crisp {
+      animation: shoePairFade 6s ease-in-out infinite;
+    }
+
+    @keyframes shoePairFade {
+      0%, 36%  { opacity: 1; }
+      41%, 84% { opacity: 0.14; }
+      90%, 100%{ opacity: 1; }
+    }
+
+    .leg-left-orbit {
+      animation: legLeftOrbit 6s ease-in-out infinite;
+    }
+
+    @keyframes legLeftOrbit {
+      0%, 17%  { transform: translateX(-23px) scaleX(1); }
+      25%, 30% { transform: translateX(21px) scaleX(0.95); }
+      35%      { transform: translateX(-20px) scaleX(0.95); }
+      40%, 85% { transform: translateX(-6px) scaleX(0.92); }
+      92%, 100%{ transform: translateX(-23px) scaleX(1); }
+    }
+
+    .leg-right-orbit {
+      animation: legRightOrbit 6s ease-in-out infinite;
+    }
+
+    @keyframes legRightOrbit {
+      0%, 17%  { transform: translateX(22px) scaleX(1); }
+      25%, 30% { transform: translateX(-21px) scaleX(0.95); }
+      35%      { transform: translateX(20px) scaleX(0.95); }
+      40%, 85% { transform: translateX(6px) scaleX(0.92); }
+      92%, 100%{ transform: translateX(22px) scaleX(1); }
+    }
+
+    .shoe-rotor-spin {
+      animation: shoeRotorSpin 0.16s linear infinite;
+    }
+
+    @keyframes shoeRotorSpin {
+      0%   { transform: scaleX(1.06) translateX(-2px); }
+      50%  { transform: scaleX(0.92) translateX(2px); }
+      100% { transform: scaleX(1.06) translateX(-2px); }
+    }
+
+    /* Billowing Smoke Clouds */
+    .smoke-l1 { animation: smokeLeft 0.95s ease-out infinite; }
+    .smoke-l2 { animation: smokeLeft 1.15s ease-out -0.38s infinite; }
+    .smoke-l3 { animation: smokeLeft 0.85s ease-out -0.68s infinite; }
+    .smoke-l4 { animation: smokeLeftHigh 1.05s ease-out -0.22s infinite; }
+    .smoke-r1 { animation: smokeRight 0.95s ease-out -0.15s infinite; }
+    .smoke-r2 { animation: smokeRight 1.15s ease-out -0.52s infinite; }
+    .smoke-r3 { animation: smokeRight 0.85s ease-out -0.80s infinite; }
+    .smoke-r4 { animation: smokeRightHigh 1.05s ease-out -0.35s infinite; }
+
+    @keyframes smokeLeft {
+      0%   { opacity: 0; transform: translate(0px, 4px) scale(0.5); }
+      22%  { opacity: 0.78; transform: translate(-32px, -4px) scale(0.92); }
+      72%  { opacity: 0.48; transform: translate(-96px, -22px) scale(1.45); }
+      100% { opacity: 0; transform: translate(-142px, -34px) scale(1.8); }
+    }
+    @keyframes smokeLeftHigh {
+      0%   { opacity: 0; transform: translate(5px, 0px) scale(0.45); }
+      25%  { opacity: 0.65; transform: translate(-40px, -18px) scale(0.95); }
+      100% { opacity: 0; transform: translate(-128px, -54px) scale(1.7); }
+    }
+    @keyframes smokeRight {
+      0%   { opacity: 0; transform: translate(0px, 4px) scale(0.5); }
+      22%  { opacity: 0.78; transform: translate(32px, -4px) scale(0.92); }
+      72%  { opacity: 0.48; transform: translate(96px, -22px) scale(1.45); }
+      100% { opacity: 0; transform: translate(142px, -34px) scale(1.8); }
+    }
+    @keyframes smokeRightHigh {
+      0%   { opacity: 0; transform: translate(-5px, 0px) scale(0.45); }
+      25%  { opacity: 0.65; transform: translate(40px, -18px) scale(0.95); }
+      100% { opacity: 0; transform: translate(128px, -54px) scale(1.7); }
+    }
+
+    /* Golden Friction Sparks */
+    .sp-1  { animation: sparkFlyL1 0.48s ease-out infinite; }
+    .sp-2  { animation: sparkFlyL2 0.56s ease-out -0.18s infinite; }
+    .sp-3  { animation: sparkFlyL3 0.42s ease-out -0.31s infinite; }
+    .sp-4  { animation: sparkFlyL4 0.62s ease-out -0.09s infinite; }
+    .sp-5  { animation: sparkFlyR1 0.46s ease-out -0.07s infinite; }
+    .sp-6  { animation: sparkFlyR2 0.58s ease-out -0.25s infinite; }
+    .sp-7  { animation: sparkFlyR3 0.44s ease-out -0.37s infinite; }
+    .sp-8  { animation: sparkFlyR4 0.60s ease-out -0.14s infinite; }
+    .sp-9  { animation: sparkFlyR5 0.52s ease-out -0.44s infinite; }
+    .sp-10 { animation: sparkFlyL5 0.50s ease-out -0.27s infinite; }
+    .sp-11 { animation: sparkArmL  0.34s ease-out -0.11s infinite; }
+    .sp-12 { animation: sparkArmR  0.36s ease-out -0.22s infinite; }
+
+    @keyframes sparkFlyL1 { 0% { opacity: 0; transform: translate(0,0) rotate(-16deg) scale(0.5); } 18% { opacity: 1; } 100% { opacity: 0; transform: translate(-122px,-44px) rotate(-24deg) scale(1.15); } }
+    @keyframes sparkFlyL2 { 0% { opacity: 0; transform: translate(0,0) rotate(6deg) scale(0.55); } 18% { opacity: 1; } 100% { opacity: 0; transform: translate(-145px,8px) rotate(12deg) scale(1); } }
+    @keyframes sparkFlyL3 { 0% { opacity: 0; transform: translate(0,0) rotate(-34deg) scale(0.55); } 20% { opacity: 1; } 100% { opacity: 0; transform: translate(-92px,-78px) rotate(-42deg) scale(0.95); } }
+    @keyframes sparkFlyL4 { 0% { opacity: 0; transform: translate(0,0) rotate(18deg) scale(0.55); } 18% { opacity: 1; } 100% { opacity: 0; transform: translate(-106px,26px) rotate(24deg) scale(0.85); } }
+    @keyframes sparkFlyL5 { 0% { opacity: 0; transform: translate(0,0) rotate(-6deg) scale(0.6); } 22% { opacity: 1; } 100% { opacity: 0; transform: translate(-158px,-18px) rotate(-10deg) scale(1.1); } }
+    @keyframes sparkFlyR1 { 0% { opacity: 0; transform: translate(0,0) rotate(16deg) scale(0.5); } 18% { opacity: 1; } 100% { opacity: 0; transform: translate(124px,-46px) rotate(24deg) scale(1.15); } }
+    @keyframes sparkFlyR2 { 0% { opacity: 0; transform: translate(0,0) rotate(-6deg) scale(0.55); } 18% { opacity: 1; } 100% { opacity: 0; transform: translate(148px,10px) rotate(-12deg) scale(1); } }
+    @keyframes sparkFlyR3 { 0% { opacity: 0; transform: translate(0,0) rotate(36deg) scale(0.55); } 20% { opacity: 1; } 100% { opacity: 0; transform: translate(98px,-82px) rotate(44deg) scale(0.95); } }
+    @keyframes sparkFlyR4 { 0% { opacity: 0; transform: translate(0,0) rotate(-18deg) scale(0.55); } 18% { opacity: 1; } 100% { opacity: 0; transform: translate(110px,24px) rotate(-24deg) scale(0.85); } }
+    @keyframes sparkFlyR5 { 0% { opacity: 0; transform: translate(0,0) rotate(24deg) scale(0.55); } 18% { opacity: 1; } 100% { opacity: 0; transform: translate(138px,-60px) rotate(30deg) scale(1.05); } }
+    @keyframes sparkArmL  { 0% { opacity: 0; transform: translate(0,0) rotate(12deg) scaleX(0.55); } 22% { opacity: 1; } 100% { opacity: 0; transform: translate(-78px,-22px) rotate(18deg) scaleX(1.35); } }
+    @keyframes sparkArmR  { 0% { opacity: 0; transform: translate(0,0) rotate(-10deg) scaleX(0.55); } 22% { opacity: 1; } 100% { opacity: 0; transform: translate(76px,-18px) rotate(-16deg) scaleX(1.35); } }
+
+    .speed-streak-pulse { animation: speedStreakPulse 0.18s linear infinite; }
+    @keyframes speedStreakPulse {
+      0%   { opacity: 0.45; transform: scaleX(0.88); }
+      50%  { opacity: 0.95; transform: scaleX(1.08); }
+      100% { opacity: 0.45; transform: scaleX(0.88); }
+    }
+
+    .contact-shadow { animation: shadowBreath 6s ease-in-out infinite; }
+    @keyframes shadowBreath {
+      0%, 10%  { transform: scale(1.04, 1.05); opacity: 0.72; }
+      16%      { transform: scale(0.95, 0.92); opacity: 0.65; }
+      40%, 85% { transform: scale(1.16, 1.04); opacity: 0.82; }
+      100%     { transform: scale(1.04, 1.05); opacity: 0.72; }
+    }
+
+    .lamp-pulse { animation: lampPulse 4s ease-in-out infinite; }
+    @keyframes lampPulse {
+      0%, 100% { opacity: 0.92; }
+      50%      { opacity: 1; }
+    }
+  ]]></style>
+
+  <g clip-path="url(#stageClip)">
+    <!-- LAYER 1: WARM COZY STUDIO BACKGROUND -->
+    <rect x="0" y="0" width="640" height="270" fill="url(#wallBg)"/>
+    <rect x="520" y="0" width="26" height="268" fill="#1b1e17" opacity="0.55" filter="url(#softBlur)"/>
+    <rect x="550" y="0" width="90" height="268" fill="#23261d" opacity="0.45"/>
+
+    <g class="lamp-pulse">
+      <ellipse cx="128" cy="84" rx="95" ry="125" fill="url(#lampHalo)"/>
+      <g filter="url(#bgBokeh)">
+        <rect x="102" y="-8" width="52" height="172" rx="14" fill="url(#lampCore)"/>
+      </g>
+    </g>
+
+    <g filter="url(#softBlur)" opacity="0.88">
+      <path d="M 30,275 C 12,232 -6,195 -10,162 C 14,185 32,222 46,275 Z" fill="#283319"/>
+      <path d="M 48,275 C 46,216 58,162 86,128 C 79,174 72,224 66,275 Z" fill="#3a4a24"/>
+      <path d="M 55,275 C 68,225 94,184 128,158 C 108,200 88,238 74,275 Z" fill="#2f3c1d"/>
+      <path d="M 38,275 C 24,218 20,166 28,124 C 42,166 50,218 54,275 Z" fill="#354320"/>
+      <path d="M 62,275 C 84,242 114,224 146,216 C 118,242 96,258 80,275 Z" fill="#253017"/>
+    </g>
+
+    <!-- LAYER 2: POLISHED WOODEN TABLETOP -->
+    <g>
+      <rect x="0" y="266" width="640" height="94" fill="url(#tableBase)"/>
+      <rect x="0" y="266" width="640" height="94" fill="url(#tableLampSheen)"/>
+      <line x1="0" y1="266.5" x2="640" y2="266.5" stroke="#a87f5c" stroke-width="1.5" opacity="0.65"/>
+      <g stroke="#442917" stroke-linecap="round" opacity="0.18">
+        <line x1="0" y1="278" x2="640" y2="278" stroke-width="1.2"/>
+        <line x1="20" y1="292" x2="610" y2="292" stroke-width="1.8"/>
+        <line x1="0" y1="309" x2="640" y2="309" stroke-width="1.4"/>
+        <line x1="45" y1="326" x2="635" y2="326" stroke-width="2.1"/>
+        <line x1="0" y1="344" x2="640" y2="344" stroke-width="1.6"/>
+      </g>
+      <ellipse cx="132" cy="296" rx="68" ry="14" fill="#e9ad62" opacity="0.12" filter="url(#softBlur)"/>
+      <ellipse cx="320" cy="322" rx="76" ry="18" fill="#1d110a" opacity="0.28" filter="url(#bgBokeh)"/>
+      <g transform="translate(320, 312)">
+        <ellipse class="contact-shadow" cx="0" cy="0" rx="92" ry="13" fill="#170d07" filter="url(#softBlur)"/>
+      </g>
+      <g class="turbo-envelope">
+        <ellipse cx="320" cy="308" rx="120" ry="18" fill="url(#tableFrictionGlow)" filter="url(#softBlur)"/>
+      </g>
+    </g>
+
+    <!-- LAYER 3: BACK SMOKE LAYER -->
+    <g class="turbo-envelope" filter="url(#smokeBlur)">
+      <g transform="translate(242, 276)">
+        <ellipse class="smoke-l4" cx="0" cy="0" rx="38" ry="25" fill="url(#smokePuff)"/>
+      </g>
+      <g transform="translate(398, 276)">
+        <ellipse class="smoke-r4" cx="0" cy="0" rx="38" ry="25" fill="url(#smokePuff)"/>
+      </g>
+    </g>
+
+    <!-- LAYER 4: EGG DARIO CHARACTER RIG -->
+    <g transform="translate(320, 190)">
+      <g class="dario-rig">
+        <!-- Speed streaks behind arms -->
+        <g class="turbo-envelope">
+          <g transform="translate(-88, -4)">
+            <g class="speed-streak-pulse">
+              <path d="M 0,-10 L -94,-26 L -90,-17 L 0,-3 Z" fill="url(#speedBlurLeft)"/>
+              <path d="M 0,-2 L -108,-6 L -104,2 L 0,4 Z" fill="url(#speedBlurLeft)" opacity="0.85"/>
+              <path d="M 0,6 L -78,10 L -74,15 L 0,10 Z" fill="url(#speedBlurLeft)" opacity="0.65"/>
+            </g>
+          </g>
+          <g transform="translate(88, -4)">
+            <g class="speed-streak-pulse">
+              <path d="M 0,-8 L 86,-20 L 82,-12 L 0,-2 Z" fill="url(#speedBlurRight)" opacity="0.78"/>
+              <path d="M 0,1 L 98,0 L 94,6 L 0,6 Z" fill="url(#speedBlurRight)" opacity="0.65"/>
+            </g>
+          </g>
+        </g>
+
+        <!-- Back hair mass -->
+        <ellipse cx="0" cy="76" rx="96" ry="46" fill="#140c07"/>
+
+        <!-- Stubby Arms -->
+        <g class="arm-left-group">
+          <g class="arm-vibe">
+            <path d="M 10,-11 C -16,-12 -46,-8 -68,-2 C -76,1 -77,11 -68,14 C -46,18 -14,17 12,13 Z" fill="url(#armGradL)"/>
+            <ellipse cx="-66" cy="5.5" rx="7" ry="5.5" fill="#f7cfa9" opacity="0.35"/>
+          </g>
+        </g>
+
+        <g class="arm-right-group">
+          <g class="arm-vibe">
+            <path d="M -10,-11 C 16,-12 46,-8 68,-2 C 76,1 77,11 68,14 C 46,18 14,17 -12,13 Z" fill="url(#armGradR)"/>
+            <ellipse cx="66" cy="5.5" rx="7" ry="5.5" fill="#f3c49c" opacity="0.3"/>
+          </g>
+        </g>
+
+        <!-- Small sculpted ears peeking on the sides of Egg Dario -->
+        <g class="dario-ears">
+          <ellipse cx="-92" cy="18" rx="8" ry="13" fill="#dd9e76"/>
+          <path d="M -94,12 Q -89,18 -93,24" fill="none" stroke="#9e6242" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+          <ellipse cx="92" cy="18" rx="8" ry="13" fill="#c78761"/>
+          <path d="M 94,12 Q 89,18 93,24" fill="none" stroke="#8a5235" stroke-width="1.8" stroke-linecap="round" opacity="0.6"/>
+        </g>
+
+        <!-- Legs and Purple Sneakers -->
+        <g transform="translate(0, -108)">
+          <g class="legs-master">
+            <g class="shoe-pair-crisp">
+              <g class="leg-left-orbit">
+                <rect x="-11" y="-12" width="22" height="32" rx="10" fill="url(#legGrad)"/>
+                <g transform="translate(6, -15)"><use href="#purpleShoe"/></g>
+              </g>
+              <g class="leg-right-orbit">
+                <rect x="-11" y="-12" width="22" height="32" rx="10" fill="url(#legGrad)"/>
+                <g transform="translate(6, -15)"><use href="#purpleShoe"/></g>
+              </g>
+            </g>
+            <g class="turbo-envelope">
+              <rect x="-18" y="-12" width="36" height="32" rx="12" fill="url(#legGrad)"/>
+              <g class="shoe-rotor-spin">
+                <g filter="url(#hBlurShoe)">
+                  <rect x="-34" y="-36" width="68" height="22" rx="9" fill="url(#shoeUpper)"/>
+                  <rect x="-32" y="-39" width="64" height="8" rx="4" fill="url(#shoeSole)"/>
+                </g>
+                <rect x="-25" y="-36" width="50" height="19" rx="7" fill="url(#shoeUpper)" opacity="0.72"/>
+                <rect x="-23" y="-38" width="46" height="7" rx="3.5" fill="url(#shoeSole)" opacity="0.82"/>
+              </g>
+            </g>
+          </g>
+        </g>
+
+        <!-- Main Egg Body -->
+        <g>
+          <path d="M 0,-94 C 55,-94 94,-44 94,12 C 94,58 56,88 0,88 C -56,88 -94,58 -94,12 C -94,-44 -55,-94 0,-94 Z" fill="url(#eggSkin)"/>
+          <path d="M 0,-94 C 55,-94 94,-44 94,12 C 94,58 56,88 0,88 C -56,88 -94,58 -94,12 C -94,-44 -55,-94 0,-94 Z" fill="url(#eggRimLight)"/>
+          <ellipse cx="-26" cy="-54" rx="28" ry="17" transform="rotate(-22 -26 -54)" fill="#ffe8cf" opacity="0.32" filter="url(#softBlur)"/>
+
+          <!-- Upside-Down Dario Face (Clipped inside Egg Silhouette for 3D Rotation) -->
+          <g clip-path="url(#eggClip)">
+            <g transform="translate(0, -2) scale(1.03)">
+              <g class="face-spin-crisp">
+                <use href="#darioFaceArtwork"/>
+              </g>
+              <g class="turbo-envelope">
+                <g class="turbo-face-ghost" filter="url(#hBlurFaceWide)">
+                  <use href="#darioFaceArtwork"/>
+                </g>
+                <g class="turbo-face-whip" filter="url(#hBlurFace)">
+                  <use href="#darioFaceArtwork"/>
+                </g>
+                <g opacity="0.6">
+                  <use href="#darioFaceArtwork"/>
+                </g>
+              </g>
+            </g>
+
+            <!-- Hair-cast ambient shadow at bottom of egg -->
+            <path d="M -96,46 L 96,46 L 96,94 L -96,94 Z" fill="url(#eggBottomShadow)"/>
+          </g>
+        </g>
+
+        <!-- Front Sweeping Arm (Frame 00:01) -->
+        <g class="front-sweep-arm">
+          <path d="M 10,-9 C -14,-10 -44,-5 -64,2 C -72,5 -71,14 -62,16 C -42,19 -12,17 12,13 Z" fill="url(#armGradL)"/>
+        </g>
+
+        <!-- Plush Fluffy Curly Hair Mop at Base (Voluminous & Natural!) -->
+        <g transform="translate(0, 56) scale(1.04, 0.74)">
+          <g class="hair-crisp-layer">
+            <use href="#curlyHairFront"/>
+          </g>
+          <g class="turbo-envelope">
+            <g class="hair-turbo-jitter" filter="url(#hBlurHair)">
+              <use href="#curlyHairFront"/>
+              <ellipse cx="0" cy="64" rx="90" ry="18" fill="#5e5752" opacity="0.38"/>
+              <ellipse cx="0" cy="44" rx="96" ry="14" fill="#3a2c24" opacity="0.46"/>
+            </g>
+          </g>
+        </g>
+
+        <!-- Frame 00:00 Forward-Tilted Hair Mop Cover -->
+        <g class="dive-hair-cover">
+          <path d="M -42,-16 Q 0,-30 42,-16" fill="none" stroke="#6c5a52" stroke-width="2.5" opacity="0.72"/>
+          <path d="M -38,100 Q 0,114 38,100" fill="none" stroke="#362a24" stroke-width="2.6" opacity="0.82"/>
+          <g transform="translate(0, -14) scale(1.06, 1.32)">
+            <use href="#curlyHairFront"/>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- LAYER 5: FOREGROUND FRICTION SMOKE AND GOLDEN SPARKS -->
+    <g class="turbo-envelope">
+      <g filter="url(#smokeBlur)">
+        <g transform="translate(226, 282)">
+          <ellipse class="smoke-l1" cx="0" cy="0" rx="46" ry="28" fill="url(#smokePuff)"/>
+          <ellipse class="smoke-l2" cx="8" cy="-10" rx="40" ry="25" fill="url(#smokePuff)"/>
+          <ellipse class="smoke-l3" cx="-4" cy="4" rx="34" ry="20" fill="url(#smokePuff)"/>
+        </g>
+        <g transform="translate(414, 282)">
+          <ellipse class="smoke-r1" cx="0" cy="0" rx="46" ry="28" fill="url(#smokePuff)"/>
+          <ellipse class="smoke-r2" cx="-8" cy="-10" rx="40" ry="25" fill="url(#smokePuff)"/>
+          <ellipse class="smoke-r3" cx="4" cy="4" rx="34" ry="20" fill="url(#smokePuff)"/>
+        </g>
+      </g>
+
+      <g filter="url(#sparkGlow)">
+        <g transform="translate(232, 290)">
+          <rect class="sp-1" x="-14" y="-1.5" width="18" height="3" rx="1.5" fill="url(#sparkStreakL)"/>
+          <rect class="sp-2" x="-11" y="-1.2" width="15" height="2.4" rx="1.2" fill="#ffe494"/>
+          <circle class="sp-3" cx="0" cy="0" r="2.4" fill="#fff7d4"/>
+          <rect class="sp-4" x="-9" y="-1.1" width="12" height="2.2" rx="1.1" fill="#ffb046"/>
+          <rect class="sp-10" x="-16" y="-1.4" width="20" height="2.8" rx="1.4" fill="#ffdc78"/>
+        </g>
+        <g transform="translate(408, 290)">
+          <rect class="sp-5" x="0" y="-1.5" width="18" height="3" rx="1.5" fill="url(#sparkStreakR)"/>
+          <rect class="sp-6" x="0" y="-1.2" width="16" height="2.4" rx="1.2" fill="#ffe494"/>
+          <circle class="sp-7" cx="0" cy="0" r="2.5" fill="#fff7d4"/>
+          <rect class="sp-8" x="0" y="-1.1" width="12" height="2.2" rx="1.1" fill="#ffb046"/>
+          <rect class="sp-9" x="0" y="-1.4" width="17" height="2.8" rx="1.4" fill="#ffd86e"/>
+        </g>
+        <g transform="translate(178, 184)">
+          <rect class="sp-11" x="-18" y="-1.4" width="22" height="2.8" rx="1.4" fill="#ffe79c"/>
+        </g>
+        <g transform="translate(462, 184)">
+          <rect class="sp-12" x="0" y="-1.4" width="20" height="2.8" rx="1.4" fill="#ffe79c"/>
+        </g>
+      </g>
+    </g>
+
+    <rect x="0" y="0" width="640" height="360" fill="none" stroke="#14130f" stroke-width="6" opacity="0.35"/>
+  </g>
+</svg>
